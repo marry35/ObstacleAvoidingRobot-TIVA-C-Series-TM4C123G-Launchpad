@@ -54,6 +54,7 @@ void servoRight( void)
 
 void servoConfig(void)
 {
+	
 Timer1A_Init();
 
 }
