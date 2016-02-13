@@ -4,6 +4,7 @@
 
 void GPIO_Port_Init (void)
 {
+
 	SYSCTL_RCGCGPIO_R |= 0x12;
 	
 	GPIO_PORTB_DIR_R |= 0xFF;
