@@ -18,7 +18,7 @@ void distanceSensorConfig(void)
  GPIO_PORTE_DIR_R &=~ECHO_PINE1;
  GPIO_PORTE_PD_R  |= ECHO_PINE1;
 	
-	//Enabling PortF PF4 pin with Input Capture mode
+//Enabling PortF PF4 pin with Input Capture mode
  GPIO_PORTF_DEN_R   |= 0x00000010;
  GPIO_PORTF_AFSEL_R |= 0x00000010;
  GPIO_PORTF_PCTL_R  |= 0x00070000;
