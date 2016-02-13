@@ -38,6 +38,7 @@ void moveRight (void)
 void Stop (void)
 	
 {
+
 	//Writing the Stop Data
  GPIO_PORTA_DATA_R =BREAK;
 }
