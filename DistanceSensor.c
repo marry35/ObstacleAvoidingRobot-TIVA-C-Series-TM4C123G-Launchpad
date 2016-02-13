@@ -26,6 +26,7 @@ void distanceSensorConfig(void)
   //Initialize the Timer Module for Input Capture
  Timer2A_Init();
 	
+	
 	//Configuring systick timer for 50ms continous Trigger to the Sensor
  configureSystickTimer();
 }
