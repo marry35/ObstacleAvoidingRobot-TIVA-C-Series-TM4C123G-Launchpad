@@ -9,7 +9,7 @@ int rightDistance = 0;
 int main ()
 	
 {
-	
+	//Adding this comment to test Git-changes
 	//Configuring and Setting up LCD Module
 	LCDConfig();
 	
