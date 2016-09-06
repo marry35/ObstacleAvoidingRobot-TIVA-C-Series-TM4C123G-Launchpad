@@ -17,9 +17,9 @@ int main ()
 	motorDriverConfig();
 	
 	//Configuring and Setting up Distance Sensor Module
-  distanceSensorConfig();
+        distanceSensorConfig();
 	    
-  //Configuring the Servo Motor 
+        //Configuring the Servo Motor 
 	servoConfig();
 	
 	
